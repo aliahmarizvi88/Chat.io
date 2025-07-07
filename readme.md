@@ -70,7 +70,15 @@ frontend/
    npm install
    ```
 3. Create a `.env` file based on `.env.example` and set your environment variables (MongoDB URI, JWT secret, etc.).
-4. Start the backend server:
+  ```BACKEND.env:
+  PORT = 5000
+  MONGO_URI = YOUR _MONGO_URI 
+  JWT_SECRET = YOUR_JWT_SECERT KEY
+
+  USER_EMAIL = YOUR_EMAIL
+  EMAIL_PASS = YOUR_PASS
+  ```
+5. Start the backend server:
    ```bash
    npm run dev
    ```
